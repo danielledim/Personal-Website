@@ -1,0 +1,184 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color:  #e9e9e4;
+}
+
+.banner{
+  background-color: none;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner .waves{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+.banner .waves-top{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  right: 0;
+}
+
+
+nav{
+  background-color: #abaa97;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.nav-links {
+  float: right;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 22px;
+	font-family: 'Arsenal', sans-serif;
+  color: #ddcbb9;
+}
+
+.logo{
+  margin-top: -60px;
+  margin-left: 20px;
+  float: left;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 60px;
+	font-family: 'Rubik Mono One', sans-serif;
+  text-shadow: 2px 2px #e0e0e0;
+  color: #ddcbb9;
+  background-color: #dadae6;
+}
+  
+.nav-links:hover {
+	border-radius: 5px;
+	color:  #e9e9e4;
+  background-color: 	#b3b4cb;
+}
+
+
+h1{
+  font-size: 60px;
+  font-family: ;
+  color:#b3b4cb;
+  padding: 20px;
+  margin-left: 300px;
+  margin-top: 70px;
+  margin-bottom: -15vh;
+}
+
+h2{
+  color: #ddcbb9;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 30px;
+  text-shadow: 2px 2px grey;
+  background-color: #b3b4cb;
+  padding: 20px;
+  border-radius: 5%;
+}
+
+
+p{
+  font-family: 'Kosugi Maru', sans-serif;
+  font-size: 20px;
+  color: #4b2f12;
+}
+
+.aboutme{
+  width: 60%;
+  padding: 30px;
+  text-align: left;
+  margin-left: 0;
+  margin-top: -100vh;
+}
+
+
+.aboutme h2{
+  font-size: 70px;
+  margin-bottom: 30px;
+  width: 600px;
+  margin-top: -800px;
+  margin-left: 100px;
+}
+
+.aboutme p{
+  text-align: left;
+  margin-left: 0;
+  background-color: #dadae6;
+  padding: 50px;
+}
+
+.exp{
+  margin-right: 20px;
+  margin-top: -500px;
+}
+
+.exp p{
+  width: 40%;
+  text-align: right;
+  margin-left: 55%;
+  margin-top: -440px;
+  line-height: 1.5;
+}
+
+.exp h2{
+  font-size: 40px;
+  text-align: right;
+  float: right;
+  width: 350px;
+  margin-bottom: -200px;
+}
+
+.passions{
+  margin-top: 50vh;
+}
+
+.passions h2{
+  font-size: 60px;
+  margin-bottom: 30px;
+  width: 600px;
+  margin-top: -300px;
+  margin-left: 100px;
+}
+
+.passions p{
+   text-align: left;
+  margin-left: 0;
+  background-color: #dadae6;
+  padding: 50px;
+}
+
+.circle{
+  height: 600px;
+  width: 600; 
+  background-color: #dadae6;
+  border-radius: 50%;
+  margin-left: 60%;
+}
+
+.textbox{
+  padding: 40px;
+  background-color: 	#d0d0c6;
+  margin: 100px;
+  height: 150vh;
+}
+
+footer {
+  background-color: #b3b4cb;
+  text-align:center;
+  overflow: hidden;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20vh;
+}
+
+.footer-text{
+  font-family:'Baloo 2', cursive;
+  color: white;
+}
